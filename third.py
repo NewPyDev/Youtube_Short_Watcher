@@ -3,7 +3,7 @@ from streamlit_lottie import st_lottie
 import json
 from PIL import Image
 
-img0 = Image.open('images/0.png')
+img0 = Image.open('images/0.PNG')
 img1 = Image.open('images/1.png')
 img2 = Image.open('images/2.png')
 img3 = Image.open('images/3.png')
