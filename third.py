@@ -4,9 +4,9 @@ import json
 from PIL import Image
 
 img0 = Image.open('images/0.PNG')
-img1 = Image.open('images/1.png')
-img2 = Image.open('images/2.png')
-img3 = Image.open('images/3.png')
+img1 = Image.open('images/1.PNG')
+img2 = Image.open('images/2.PNG')
+img3 = Image.open('images/3.PNG')
 def load_lottiefile(filepath: str):
     with open(filepath, 'r') as f:
         return json.load(f)
